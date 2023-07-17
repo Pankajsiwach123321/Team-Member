@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.w-100 {
+    width: 100%;
+
+}
+
+.card {
+    overflow: hidden;
+    max-width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: var(--white, #FFF);
+
+}
+
+
+.card:hover {
+    border-color: transparent;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+   
+
+
+}
+
+.card:hover .absolute {
+    right: 0;
+    transition: all 400ms linear;
+  
+
+}
+
+.min-height {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mr-30 {
+    padding-right: 30px;
+}
+
+.word {
+    color: #000;
+
+   
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%;
+   
+}
+
+.member {
+    color: var(--gray-paragraph, #7B7B7B);
+
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.6%;
+
+}
+
+.have {
+    width: 446px;
+    height: 96px;
+    color: var(--black, #373737);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 39.06px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+}
+
+.people {
+    color: var(--orange, #FF5300);
+    font-family: Work Sans;
+    font-size: 39.06px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+}
+
+.ui {
+    color: var(--gray-paragraph, #7B7B7B);
+    font-size: 16px;
+    font-family: Work Sans;
+    line-height: 150.6%;
+}
+
+.pt-24 {
+    padding-top: 24px;
+    padding-left: 53px;
+}
+
+.pt-12 {
+    padding-top: 12px;
+    padding-left: 76px;
+}
+
+.pt-72 {
+    padding-top: 24px;
+    padding-left: 72px;
+}
+
+.pt-68 {
+    padding-top: 12px;
+    padding-left: 68px;
+}
+
+.pt-83 {
+    padding-top: 24px;
+    padding-left: 83px;
+}
+
+.pt-76 {
+    padding-top: 12px;
+    padding-left: 76px;
+}
+
+.pt-61 {
+    padding-top: 24px;
+    padding-left: 61px;
+}
+
+.pt-78 {
+    padding-top: 12px;
+    padding-left: 78px;
+}
+
+.pt-232 {
+    padding-top: 232px;
+}
+
+.relative {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.absolute {
+
+    height: 100%;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inbox {
+    width: 40px;
+    height: 40px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+
+
+}
+
+.inbox>svg path {
+    fill: #FF5300;
+}
+
+.inbox:hover {
+    background-color: #FF5300;
+
+}
+
+.inbox:hover {
+    border-color: transparent;
+    box-shadow: 0px 1px 10px 0px #ff5300;
+
+}
+
+.inbox:hover>svg path {
+    fill: white
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+@media (min-width:576px) {
+    .col-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:768px) {
+    .col-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+@media (min-width:992px) {
+    .col-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .mt-0-lg{
+        margin-top: 0;
+    }
+
+}
